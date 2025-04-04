@@ -8,7 +8,7 @@ public class DatabaseConnection {
     // Database connection parameters
     private static final String URL = "jdbc:mysql://localhost:3306/exam_app";
     private static final String USER = "root";
-    private static final String PASSWORD = "Aman@123."; // Update with your MySQL password if needed
+    private static final String PASSWORD = "YOUR MYSQL PASS HERE"; // Update with your MySQL password if needed
     
     @SuppressWarnings("CallToPrintStackTrace")
     public static Connection getConnection() throws SQLException {
